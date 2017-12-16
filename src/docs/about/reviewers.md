@@ -1,3 +1,14 @@
+
+### Reviewers
+
 The following people have reviewed this document (date and commit they reviewed in parentheses):
-Bill Gleim (07/29/2016 3495fb5)
-Bill Gleim (03/15/2017 0244f4e)
+
+Xavi Hidalgo (12/15/2017 first)
+
+### Contributors
+
+We have learn and seek information from those awesome projects to make the Working Software Site.
+
+Those are the contributors:
+
+- @heynickc [Awesome DDD](https://github.com/heynickc/awesome-ddd)

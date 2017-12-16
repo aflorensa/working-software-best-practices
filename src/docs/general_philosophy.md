@@ -1,74 +1,25 @@
 
 
-Working software programming requires a different engineering mindset than you may be used to. Instead, you will need to learn a new philosophy of development:
+Working software programming requires a different engineering mindset than you may be used to. Is a mix between a good programmer, an MVP maker and a responsible QA. Instead, you will need to learn a new philosophy of development:
 
-## Prepare for failure
+## Be a nice programmer
 
-Any non-trivial contract will have errors in it. Your code must, therefore, be able to respond to bugs and vulnerabilities gracefully.
+- The very first step is to be hungry of knownledge and to learn design patters, TDD and SOLID
+- Take care of your work. At the end of the chain, there's an user that will use your application
+- Be focused, your not a robot. Deliver as much quality as you can.
 
-  - Pause the contract when things are going wrong ('circuit breaker')
-  - Manage the amount of money at risk (rate limiting, maximum usage)
-  - Have an effective upgrade path for bugfixes and improvements
+## Deliver software that works
 
-## Rollout carefully
+- Is better to deliver something small that works perfectly than a lot of non yet working functionalities
+- Make baby steps. Small iterations of test-code-commit-check is a good idea
+- Integrate frequently and automate as much as you can
+- Talk with the users and make them participate in the process
 
-It is always better to catch bugs before a full production release.
-  - Test contracts thoroughly, and add tests whenever new attack vectors are discovered
-  - Provide [bug bounties](#bounties) starting from alpha testnet releases
-  - Rollout in phases, with increasing usage and testing in each phase
+## Go live Ownership
 
-## Keep contracts simple
+- Make sure all the test suites are green (unit, integration and functional)
+- Make sure all acceptance criteria are met. A good user story comes with acceptance criteria that let us check the main functionality
+- Although everything went fine, don't forget manual test, is always necesary.
+- Automate the deploy process and inform the users, let them choose if they want a demo meeting to get more feeback and make an application that fits their expectations
 
-Complexity increases the likelihood of errors.
 
-  - Ensure the contract logic is simple
-  - Modularize code to keep contracts and functions small
-  - Use already-written tools or code where possible (eg. don't roll your own random number generator)
-  - Prefer clarity to performance whenever possible
-  - Only use the blockchain for the parts of your system that require decentralization
-
-## Stay up to date
-
-Use the resources listed in the next section to keep track of new security developments.
-
-  - Check your contracts for any new bug that's discovered
-  - Upgrade to the latest version of any tool or library as soon as possible
-  - Adopt new security techniques that appear useful
-
-## Be aware of blockchain properties
-
-While much of your programming experience will be relevant to Ethereum programming, there are some pitfalls to be aware of.
-
-  - Be extremely careful about external contract calls, which may execute malicious code and change control flow.
-  - Understand that your public functions are public, and may be called maliciously. Your private data is also viewable by anyone.
-  - Keep gas costs and the block gas limit in mind.
-
-## Fundamental Tradeoffs: Simplicity versus Complexity cases
-
-There are multiple fundamental tradeoffs to consider when assessing the structure and security of a smart contract system.  The general recommendation for any smart contract system is to identify the proper balance for these fundamental tradeoffs.
-
-An ideal smart contract system from a software engineering bias is modular, reuses code instead of duplicating it, and supports upgradeable components.  An ideal smart contract system from a secure architecture bias may share this mindset, especially in the case of more complex smart contract systems.
-
-However, there are important exceptions where security and software engineering best practices may not be aligned.  In each case, the proper balance is obtained by identifying the optimal mix of properties along contract system dimensions such as:
-
-- Rigid versus Upgradeable
-- Monolithic versus Modular
-- Duplication versus Reuse
-
-### Rigid versus Upgradeable
-
-While multiple resources, including this one, emphasize malleability characteristics such as Killable, Upgradeable or Modifiable patterns there is a *fundamental tradeoff* between malleability and security.
-
-Malleability patterns by definition add complexity and potential attack surfaces.  Simplicity is particularly effective over complexity in cases where the smart contract system performs a very limited set of functionality for a pre-defined limited period of time, for example, a governance-free finite-time-frame token-sale contract system.
-
-### Monolithic versus Modular
-
-A monolithic self-contained contract keeps all knowledge locally identifiable and readable.  While there are few smart contract systems held in high regard that exist as monoliths, there is an argument to be made for extreme locality of data and flow - for example, in the case of optimizing code review efficiency.
-
-As with the other tradeoffs considered here, security best practices trend away from software engineering best practices in simple short-lived contracts and trend toward software engineering best practices in the case of more complex perpetual contract systems.
-
-### Duplication versus Reuse
-
-A smart contract system from a software engineering perspective wishes to maximize reuse where reasonable.  There are many ways to reuse contract code in Solidity.  Using proven previously-deployed contracts *which you own* is generally the safest manner to achieve code reuse.
-
-Duplication is frequently relied upon in cases where self-owned previously-deployed contracts are not available.  Efforts such as [Live Libs](https://github.com/ConsenSys/live-libs) and [Zeppelin Solidity](https://github.com/OpenZeppelin/zeppelin-solidity) seek to provide patterns such that secure code can be re-used without duplication.  Any contract security analyses must include any re-used code that has not previously established a level of trust commensurate with the funds at risk in the target smart contract system.

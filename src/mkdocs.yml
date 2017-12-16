@@ -8,11 +8,11 @@ pages:
   - Home: index.md
   - General Philosophy: general_philosophy.md
   - Recommendations to begin with Working Software: recommendations.md
-  - Known Attacks: known_attacks.md
+  - Best Practices: best_practices.md
   - Software Engineering Techniques: software_engineering.md
   - Software Architecture: software_architecture.md
-  - Security Tools: security_tools.md
-  - Security Notifications: security_notifications.md
+  - Working Software Tools: working_software_tools.md
+  - Solid Principles: solid_principles.md
   - Future improvements: future_improvements.md
   - Bibliography: bibliography.md
   - About:

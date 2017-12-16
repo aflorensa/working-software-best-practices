@@ -4,11 +4,19 @@ This document provides a baseline knowledge of to-do considerations to create Wo
 
 [![Join the chat at https://gitter.im/working-software/working-software-best-practices](https://badges.gitter.im/working-software/working-software-best-practices.svg)](https://gitter.im/working-software/working-software-best-practices?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+## What is Working Software?
+
+Nowadays, the use of unit test, TDD and SOLID Patterns is been asumed by (good) developers as a must. But... is that enought ? I don't think so... We still need to deliver some piece of an application to the final user.
+
+In a few words... Working Software is that "something else thing" that is missing on a customer centric development to really deliver functionality that can be used. Not only Unit Test, TDD and SOLID.
+
+The purpose of this site, is to show you tools, methodologies and good practices to build software that works from all perspectives (software architecture, lean development, continuous integration and quality assurance).
+
 ## Where to start?
 
 * [General Philosopy](./general_philosophy) describes the working software mindset
 * [First Steps Recommendations](./recommendations) contains examples of good code patterns
-* [SOLID Pattern](./known_attacks) describes the importance of the SOLID Object Oriented Pattern
+* [SOLID Principles](./solid_principles) describes the importance of the SOLID Object Oriented Principles
 * [Software Engineering](./software_engineering) outlines some architectural and design approaches
 * [Software Architecture](./software_architecture) outlines best practices to build a strong architecture and
 * [Test Driven Development](./security_tools) lists tools for improving code quality, and design software properly
