@@ -1,0 +1,49 @@
+site_name: Working Software Best Practices
+site_url: https://github.com/working-software/working-software-best-practices
+site_description: 
+site_author: xavi-reloaded
+repo_url: https://github.com/working-software/working-software-best-practices
+
+pages:
+  - Home: index.md
+  - General Philosophy: general_philosophy.md
+  - Recommendations to begin with Working Software: recommendations.md
+  - Known Attacks: known_attacks.md
+  - Software Engineering Techniques: software_engineering.md
+  - Software Architecture: software_architecture.md
+  - Security Tools: security_tools.md
+  - Security Notifications: security_notifications.md
+  - Future improvements: future_improvements.md
+  - Working Software Bibliography: bibliography.md
+  - About:
+    - Reviewers: about/reviewers.md
+    - License: about/license.md
+    - Contributing: about/contributing.md
+
+theme: 'material'
+
+extra_css:
+  - 'stylesheets/extra.css'
+site_favicon: 'images/favicon.ico'
+
+
+
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc(permalink=true)
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.arithmatex
+  - pymdownx.betterem(smart_enable=all)
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist(custom_checkbox=true)
+  - pymdownx.tilde
