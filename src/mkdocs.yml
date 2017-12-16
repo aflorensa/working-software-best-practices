@@ -1,4 +1,4 @@
-site_name: Working Software Best Practices
+site_name: Working Software
 site_url: https://github.com/working-software/working-software-best-practices
 site_description: Working Software Methodology is the next evolution of Agile Development
 site_author: xavi-reloaded
@@ -7,9 +7,7 @@ repo_url: https://github.com/working-software/working-software-best-practices
 pages:
   - Home: index.md
   - General Philosophy: general_philosophy.md
-  - Recommendations to begin with Working Software: recommendations.md
-  - Best Practices: best_practices.md
-  - Software Engineering Techniques: software_engineering.md
+  - Recommendations to start Working Software: recommendations.md
   - Software Architecture: software_architecture.md
   - Working Software Tools: working_software_tools.md
   - Solid Principles: solid_principles.md
