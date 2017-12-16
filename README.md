@@ -1,6 +1,6 @@
 # Smart Contract Security Best Practices
 
-Visit the documentation site: https://working-software.io
+Visit the documentation site: https://workingsoftware.io
 
 
 ## Contributions are welcome!
