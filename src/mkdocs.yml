@@ -1,6 +1,6 @@
 site_name: Working Software Best Practices
 site_url: https://github.com/working-software/working-software-best-practices
-site_description: 
+site_description: Working Software Methodology is the next evolution of Agile Development
 site_author: xavi-reloaded
 repo_url: https://github.com/working-software/working-software-best-practices
 
@@ -14,7 +14,7 @@ pages:
   - Security Tools: security_tools.md
   - Security Notifications: security_notifications.md
   - Future improvements: future_improvements.md
-  - Working Software Bibliography: bibliography.md
+  - Bibliography: bibliography.md
   - About:
     - Reviewers: about/reviewers.md
     - License: about/license.md
