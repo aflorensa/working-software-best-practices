@@ -21,8 +21,11 @@ pages:
 
 theme: 'material'
 
-theme_font_text: 'Ubuntu'
-theme_font_code: 'Ubuntu Mono'
+extra_css:
+  - 'stylesheets/extra.css'
+
+site_favicon: 'images/favicon.ico'
+site_logo: 'images/favicon.ico'
 
 extra:
   social:
