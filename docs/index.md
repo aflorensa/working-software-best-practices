@@ -17,10 +17,9 @@ The purpose of this site, is to show you tools, methodologies and good practices
 * [General Philosopy](./general_philosophy) describes the working software mindset
 * [First Steps Recommendations](./recommendations) contains examples of good code patterns
 * [SOLID Principles](./solid_principles) describes the importance of the SOLID Object Oriented Principles
-* [Software Engineering](./software_engineering) outlines some architectural and design approaches
 * [Software Architecture](./software_architecture) outlines best practices to build a strong architecture and
-* [Test Driven Development](./security_tools) lists tools for improving code quality, and design software properly
-* [Security Notifications](./security_notifications) lists sources of information for staying up to date
+* [Test Driven Development](./test_driven_development) lists tools for improving code quality, and design software properly
+* [Tools](./working_software_tools) lists sources of information for staying up to date
 
 ## Contributions are welcome!
 

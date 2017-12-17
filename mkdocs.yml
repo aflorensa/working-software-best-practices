@@ -1,6 +1,6 @@
 site_name: Working Software
 site_url: https://github.com/working-software/working-software-best-practices
-site_description: Working Software Methodology is the next evolution of Agile Development
+site_description: Working Software philosophy is the next evolution of Agile Development
 site_author: xavi-reloaded
 repo_url: https://github.com/working-software/working-software-best-practices
 
@@ -9,6 +9,7 @@ pages:
   - General Philosophy: general_philosophy.md
   - Recommendations to start Working Software: recommendations.md
   - Software Architecture: software_architecture.md
+  - Test Driven Development: test_driven_development.md
   - Working Software Tools: working_software_tools.md
   - Solid Principles: solid_principles.md
   - Future improvements: future_improvements.md
@@ -20,19 +21,17 @@ pages:
 
 theme: 'material'
 
-extra_css:
-  - 'stylesheets/extra.css'
-
-site_favicon: 'images/favicon.ico'
+theme_font_text: 'Ubuntu'
+theme_font_code: 'Ubuntu Mono'
 
 extra:
   social:
     - type: 'github'
       link: 'https://github.com/working-software'
     - type: 'twitter'
-      link: 'https://twitter.com/squidfunk'
+      link: 'https://twitter.com/xavi_reloaded'
     - type: 'linkedin'
-      link: 'https://linkedin.com/in/squidfunk'
+      link: 'https://linkedin.com/in/apiumtech'
 
 google_analytics:
   - 'UA-XXXXXXXX-X'
