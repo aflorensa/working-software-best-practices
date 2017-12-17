@@ -1,6 +1,6 @@
 # Working Software Best Practices
 
-Visit the documentation site: https://workingsoftware.io
+Visit the documentation site: https://working-software.github.io/working-software-best-practices/
 
 
 ## Contributions are welcome!
