@@ -24,8 +24,8 @@ theme: 'material'
 extra_css:
   - 'stylesheets/extra.css'
 
-site_favicon: 'images/favicon.ico'
-site_logo: 'images/favicon.ico'
+site_favicon: 'https://apiumtech.com/wp-content/uploads/2015/08/favicon.ico'
+site_logo: 'https://apiumtech.com/wp-content/uploads/2015/08/apiumtech-logo-57x57.png'
 
 extra:
   social:
